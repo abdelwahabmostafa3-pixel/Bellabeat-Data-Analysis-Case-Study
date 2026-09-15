@@ -1,0 +1,19 @@
+**4. Key Findings & Insights**
+
+Based on the descriptive statistics calculated from the daily activity dataset, the key observations are:
+
+* **Average Daily Steps:**
+* Users averaged approximately **8021 steps per day** (excluding non-usage zero-value days), falling short of the standard health benchmark of **10,000 steps per day**.
+
+
+* **Sedentary vs. Active Behavior:**
+* Data indicates a high level of inactivity, with average **Sedentary Minutes** reaching **968.6 minutes per day** (~16.1 hours of prolonged sitting or minimal movement).
+* Conversely, **Very Active Minutes** averaged only **21.2 minutes per day**, indicating that high-intensity workouts account for a small fraction of daily routines.
+
+
+* **Device Engagement & Tracking Gaps:**
+* The presence of **0 values** across the minimum parameters indicates days where users either took off the device or allowed the battery to drain. This highlights an opportunity to improve battery life reminders and wearability alerts.
+
+* **Sleep Behavior & Patterns:**
+  * **Average Sleep Duration:** Users averaged **419.2 minutes (~7.0 hours)** of actual sleep per night, which aligns well with standard health recommendations.
+  * **Time Awake in Bed:** Users spent an average of **458.5 minutes in bed**, indicating that approximately **39.3 minutes** are spent awake in bed before falling asleep or after waking up.

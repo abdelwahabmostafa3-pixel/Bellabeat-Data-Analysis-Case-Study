@@ -1,0 +1,14 @@
+### Data Cleaning & Preparation Documentation
+
+**1. `dailyActivity_merged` Dataset:**
+
+* **Duplicates Removal:** Removed 45 duplicate rows using full-row validation (`Select all`), retaining 895 unique daily tracking records.
+* **Data Integrity Check:** Verified complete alignment between `TotalDistance` and `TrackerDistance`, confirming full reliance on automated GPS/step tracking rather than manual inputs.
+* **Sheet Cleanup:** Deleted 11 empty, unutilized columns (`Column 1` through `Column 11`) and removed temporary conditional formatting rules.
+* **Formatting Standardization:** Standardized all distance metrics to two decimal places for numerical consistency.
+
+**2. `sleepDay_merged` Dataset:**
+
+* **Duplicates Removal:** Identified and eliminated 3 full duplicate rows, retaining 411 unique sleep records.
+* **Date Format Standardization:** Standardized the `SleepDay` column to a clean Date format by removing the redundant static timestamp (`12:00:00 AM`).
+* **Chronological Sorting:** Applied an ascending sort (A to Z) on `SleepDay` to align tracking dates sequentially for time-series analysis.

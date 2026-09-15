@@ -1,0 +1,14 @@
+## 1. Ask Phase
+
+### Business Task:
+Analyze smart device usage data to uncover trends and patterns in daily activity, sedentary behavior, and sleep habits among non-Bellabeat smart tracker users. The insights gained will be applied to guide strategic marketing decisions and enhance product positioning for Bellabeat's wellness products.
+
+### Key Stakeholders:
+- Urška Sršen: Co-founder and Chief Creative Officer of Bellabeat.
+- Sando Mur: Co-founder and key member of the executive team.
+- Bellabeat Marketing Analytics Team.
+
+### Core Business Questions:
+1. What are the key trends in daily activity, steps, and sedentary behaviors among smart device users?
+2. How do these usage trends apply to Bellabeat's target audience?
+3. How can these insights inform Bellabeat’s marketing strategy and feature recommendations?

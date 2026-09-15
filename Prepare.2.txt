@@ -1,0 +1,19 @@
+## 2. Prepare Phase
+
+### Data Source:
+- Dataset Name: FitBit Fitness Tracker Data (Public Domain dataset published by Mobius on Kaggle).
+- Content: Tracking data from eligible Fitbit users who consented to share personal metrics, including daily steps, distance, active/sedentary duration, calories, and sleep records.
+- Timeframe: April 12, 2016 – May 12, 2016 (31 days of tracking data).
+
+### Data Selection & Scope:
+- The dataset comprises 18 CSV files representing various tracking metrics.
+- Primary files selected for this analysis:
+  1. dailyActivity_merged: Daily aggregates for steps, total distance, active and sedentary minutes, and calories burned.
+  2. sleepDay_merged: Daily records of sleep duration, number of sleep logs, and total time spent in bed.
+
+### Data Integrity & ROCCC Assessment:
+- Reliable: LOW / MEDIUM (Small sample size of ~30–33 users; lacks user demographic context such as gender and age).
+- Original: LOW (Collected via Amazon Mechanical Turk third-party survey).
+- Comprehensive: MEDIUM (Covers key daily metrics including physical activity, steps, sedentary time, calories, and sleep duration).
+- Current: LOW (Data collected in 2016; consumer wearable habits may have evolved).
+- Cited: HIGH (Public domain dataset with clear licensing).
