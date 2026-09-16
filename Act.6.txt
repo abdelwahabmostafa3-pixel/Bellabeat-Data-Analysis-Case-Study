@@ -1,0 +1,15 @@
+=========================================
+PHASE 6: ACT (Marketing & Product Recommendations)
+=========================================
+
+1. TARGETED NOTIFICATIONS & ENGAGEMENT:
+   - Send gentle push notifications on Mondays and Saturdays to encourage light activities, as these days show the lowest average step counts.
+
+2. SMART SEDENTARY REMINDERS:
+   - Program the Bellabeat Leaf/Time smart device to issue subtle vibration alerts after 60 consecutive minutes of inactivity during daytime hours.
+
+3. SLEEP HYGIENE INTEGRATION:
+   - Introduce pre-bedtime wind-down alerts and in-app breathing exercises to help reduce the average 39.3 minutes users spend awake in bed.
+
+4. PRODUCT POSITIONING & MARKETING:
+   - Emphasize long battery life in marketing campaigns to mitigate data tracking gaps caused by frequent charging cycles.

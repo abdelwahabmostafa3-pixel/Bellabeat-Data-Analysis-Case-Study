@@ -1,0 +1,20 @@
+=========================================
+PHASE 5: SHARE (Visualizations & Dashboard)
+=========================================
+
+1. DASHBOARD OVERVIEW:
+   - Tool: Tableau Public
+   - Title: Bellabeat Smart Device Fitness & Sleep Analysis
+   - Interactive Link: https://public.tableau.com/app/profile/mostafa.abdelwahab/viz/BellabeatSmartDeviceFitnessSleepAnalysis/BellabeatSmartDeviceFitnessSleepAnalysis
+
+2. KEY VISUALIZATIONS INCLUDED:
+   - Total Steps vs. Calories Burned (Scatter Plot with Linear Trend Line):
+     * Demonstrates a strong positive linear correlation (R² = 0.338, P < 0.0001).
+   - Sleep Minutes vs. Time In Bed (Scatter Plot):
+     * Shows users spend an average of ~39.3 minutes awake in bed before sleep.
+   - Average Total Steps by Weekday (Bar Chart):
+     * Highlights peak activity on Thursday (9,009) and Friday (8,883), with lower activity on Monday (7,003) and Saturday (7,176).
+
+3. DESIGN decisions:
+   - Color Palette: Bellabeat corporate violet (#8B5CF6) for consistent branding.
+   - Layout: Standard executive dashboard grid with zero scrollbars for scannability.
