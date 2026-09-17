@@ -1,10 +1,16 @@
-# Bellabeat Data Analysis Case Study
-**Google Data Analytics Professional Certificate Capstone Project**
+# 🚴‍♀️ Bellabeat Smart Device Data Analysis
 
+**Consumer Behavior & Fitness Tracker Case Study**
 ---
 
 ## 📌 Executive Summary
 Bellabeat is a high-tech manufacturer of health-focused products for women. This case study analyzes smart device fitness data from FitBit users to gain insights into consumer usage patterns and uncover potential growth opportunities for Bellabeat's product line, specifically the **Bellabeat Leaf** wellness tracker and **Bellabeat App**.
+
+---
+
+## 📊 Interactive Tableau Dashboard
+Explore the full interactive visualization dashboard on Tableau Public:  
+👉 **[View Bellabeat Interactive Dashboard](https://public.tableau.com/app/profile/mostafa.abdelwahab/viz/BellabeatSmartDeviceFitnessSleepAnalysis/BellabeatSmartDeviceFitnessSleepAnalysis)**
 
 ---
 
@@ -43,20 +49,30 @@ Key descriptive statistics calculated across user daily activity and sleep recor
 | **Sleep Duration** | 419.2 min (~7.0 hrs) | 7.0 - 9.0 hrs | Sleep duration meets basic health recommendations. |
 | **Time Awake in Bed** | 39.3 min | < 20.0 min | Notable delay in falling asleep or getting out of bed. |
 
----
+### 5. Share Phase
+* **Interactive Visualization:** Designed a multi-chart executive dashboard using Tableau Public.
+* **Key Dashboard Visuals:**
+  * *Total Steps vs. Calories Burned*: Strong positive linear correlation ($R^2 = 0.338, P < 0.0001$).
+  * *Sleep Minutes vs. Time In Bed*: Visualizes user sleep latency (~39.3 min awake in bed).
+  * *Average Steps by Weekday*: Identifies lowest activity days (Mondays & Saturdays).
 
-## 💡 Strategic Marketing Recommendations
-1. **Personalized Inactivity Alerts:** Implement gentle haptic nudges via the Bellabeat App to encourage short movement breaks during prolonged sedentary periods (>1 hour).
-2. **Bedtime Routine & Sleep Hygiene:** Introduce bedtime notifications 30 minutes before target sleep times to help reduce the ~39-minute awake time in bed.
-3. **Progressive Step Goals:** Set adaptive daily step targets starting at 8,000 steps before scaling up to 10,000 to improve user engagement without causing burnout.
-4. **Battery & Wearability Reminders:** Send push notifications when battery levels drop below 15% to minimize device tracking gaps.
+### 6. Act Phase (Marketing & Product Recommendations)
+* **Targeted Notifications & Engagement:** Send gentle push notifications on Mondays and Saturdays to encourage light activities, as these days show the lowest average step counts.
+* **Smart Sedentary Reminders:** Program the Bellabeat Leaf/Time smart device to issue subtle vibration alerts after 60 consecutive minutes of inactivity during daytime hours.
+* **Sleep Hygiene Integration:** Introduce pre-bedtime wind-down alerts and in-app breathing exercises to help reduce the average 39.3 minutes users spend awake in bed.
+* **Product Positioning & Marketing:** Emphasize long battery life in marketing campaigns to mitigate data tracking gaps caused by frequent charging cycles.
 
 ---
 
 ## 📂 Project Resources & Documentation
-* Project Documentation Files:
-* [Google Sheets Interactive Data Workbook](https://docs.google.com/spreadsheets/d/1Hp50CQviOK8Ycsz_XGn1nn3E744ifQ0gKkVE92BPqiI/edit?usp=sharing)
-   `1_ask.txt` - Business task and stakeholder details.
-   `2_prepare.txt` - Data structure, ROCCC analysis, and limitations.
-   `3_process.txt` - Data cleaning protocols and transformation logic.
-   `4_analyze.txt` - Statistical findings and summary metrics.
+* **Interactive Workbooks & Dashboards:**
+  * 🟢 [Google Sheets Data Workbook](https://docs.google.com/spreadsheets/d/1Hp50CQviOK8Ycsz_XGn1nn3E744ifQ0gKkVE92BPqiI/edit?usp=sharing)
+  * 📊 [Tableau Public Interactive Dashboard](https://public.tableau.com/app/profile/mostafa.abdelwahab/viz/BellabeatSmartDeviceFitnessSleepAnalysis/BellabeatSmartDeviceFitnessSleepAnalysis)
+
+* **Phase Documentation Files:**
+  * `Ask.1.txt` - Business task and stakeholder details.
+  * `Prepare.2.txt` - Data structure, ROCCC analysis, and limitations.
+  * `Process.3.txt` - Data cleaning protocols and transformation logic.
+  * `Analyze.4.txt` - Statistical findings and summary metrics.
+  * `Share.5.txt` - Tableau visualization architecture and chart designs.
+  * `Act.6.txt` - Marketing and product recommendations.
